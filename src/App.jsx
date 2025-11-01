@@ -5,12 +5,15 @@ import MainContent from "./components/MainContent";
 
 const App = () =>{
   return (
-    <div>
-      <Header/>
-      <Greet />
-      <MainContent/>
-      <Footer />
-    </div>
+    <section id="section">
+      <div>
+        <h1>My Website</h1>
+        <article>
+          <h1>Welcome to React</h1>
+          <p className="text">Paragraph Content </p>
+        </article>
+      </div>
+    </section>
   );
 
 }
