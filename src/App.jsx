@@ -4,6 +4,7 @@ import Greet from "./components/Greet"
 import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import JSXRules from "./components/JSXRules";
+import Lists from "./components/LISTS/Lists";
 import MainContent from "./components/MainContent";
 import ProductInfo from "./components/ProductInfo";
 import WelcomeMessage from "./components/WelcomeMessage";
@@ -21,8 +22,9 @@ const App = () =>{
       {/* <WelcomeMessage/>
       <JSXRules/>
       <Expressions/> */}
-      <Greeting/>
-      <ProductInfo/>
+      {/* <Greeting/>
+      <ProductInfo/> */}
+      <Lists/>
     </section>
   );
 
