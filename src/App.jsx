@@ -1,8 +1,11 @@
+import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
+import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import JSXRules from "./components/JSXRules";
 import MainContent from "./components/MainContent";
+import ProductInfo from "./components/ProductInfo";
 import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () =>{
@@ -15,8 +18,11 @@ const App = () =>{
           <p className="text">Paragraph Content </p>
         </article>
       </div> */}
-      <WelcomeMessage/>
+      {/* <WelcomeMessage/>
       <JSXRules/>
+      <Expressions/> */}
+      <Greeting/>
+      <ProductInfo/>
     </section>
   );
 
