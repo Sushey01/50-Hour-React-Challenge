@@ -5,8 +5,8 @@ const Lists = () => {
   return (
     <div>
       {numbers.map((number)=>(
-        <ul key={Math.random}>
-            <li>{numbers}</li>
+        <ul key={number}>
+            <li>{number}</li>
         </ul>
       ))}
     </div>
