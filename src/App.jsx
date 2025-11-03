@@ -10,6 +10,7 @@ import ProductList from "./components/LISTS/ProductList";
 import UserList from "./components/LISTS/UserList";
 import MainContent from "./components/MainContent";
 import ProductInfo from "./components/ProductInfo";
+import Properties from "./components/PROPS_DAY3/Properties";
 import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () =>{
@@ -29,8 +30,9 @@ const App = () =>{
       <ProductInfo/> */}
       {/* <Lists/> */}
       {/* <Mapping/> */}
-      <UserList/>
-      <ProductList/>
+      {/* <UserList/>
+      <ProductList/> */}
+      <Properties/>
     </section>
   );
 
