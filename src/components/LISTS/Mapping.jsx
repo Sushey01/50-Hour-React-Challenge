@@ -9,7 +9,7 @@ const Mapping = () => {
     ]
   return (
     <div>
-      {usersInfo.map((user)=>(
+      {/* {usersInfo.map((user)=>(
         <ul key={Math.random()}>
             <li>{user.username}</li>
             <li>{user.email}</li>                
@@ -17,7 +17,17 @@ const Mapping = () => {
         </ul>
       )
        
-      )}
+      )} */}
+
+
+      {/* // Using destructuring method... */}
+   {usersInfo.map(({username, email, location})=>(
+    <ul key={Math.random()}>
+        <li>{username}</li>
+        <li>{email}</li>
+        <li>{location}</li>
+    </ul>
+   ))}
     </div>
   )
 }

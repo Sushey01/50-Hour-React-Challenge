@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import JSXRules from "./components/JSXRules";
 import Lists from "./components/LISTS/Lists";
 import Mapping from "./components/LISTS/Mapping";
+import ProductList from "./components/LISTS/ProductList";
+import UserList from "./components/LISTS/UserList";
 import MainContent from "./components/MainContent";
 import ProductInfo from "./components/ProductInfo";
 import WelcomeMessage from "./components/WelcomeMessage";
@@ -26,7 +28,9 @@ const App = () =>{
       {/* <Greeting/>
       <ProductInfo/> */}
       {/* <Lists/> */}
-      <Mapping/>
+      {/* <Mapping/> */}
+      <UserList/>
+      <ProductList/>
     </section>
   );
 
