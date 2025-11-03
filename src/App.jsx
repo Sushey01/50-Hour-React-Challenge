@@ -10,6 +10,8 @@ import ProductList from "./components/LISTS/ProductList";
 import UserList from "./components/LISTS/UserList";
 import MainContent from "./components/MainContent";
 import ProductInfo from "./components/ProductInfo";
+import Person from "./components/PROPS_DAY3/Person";
+import Product from "./components/PROPS_DAY3/Product";
 import Properties from "./components/PROPS_DAY3/Properties";
 import WelcomeMessage from "./components/WelcomeMessage";
 
@@ -32,7 +34,9 @@ const App = () =>{
       {/* <Mapping/> */}
       {/* <UserList/>
       <ProductList/> */}
-      <Properties/>
+      {/* <Properties/> */}
+      <Person name="Shekhar" age={20}/>
+      <Product name="Iphone" price={2000}/>
     </section>
   );
 

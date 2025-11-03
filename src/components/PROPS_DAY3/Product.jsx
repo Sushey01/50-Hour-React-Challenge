@@ -1,16 +1,12 @@
 import React from 'react'
 
-const PersonInfo = () = {
-    return (
-        <div>
-    )
-}
 
-const Product = ({name, price}) => {
+
+const Product = (props) => {
   return (
     <div>
-      <h2>Product's name: {name} </h2>
-      <p>Product's price: {price}</p>
+      <h2>Product's name: {props.name} </h2>
+      <p>Product's price: ${props.price}</p>
     </div>
   )
 }

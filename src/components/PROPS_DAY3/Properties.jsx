@@ -1,5 +1,5 @@
 import React from 'react'
-import {Mario} from "../../assets/images/mario.png"
+import Mario from "../../assets/images/mario.png"
 
 const Properties = () => {
   return (
