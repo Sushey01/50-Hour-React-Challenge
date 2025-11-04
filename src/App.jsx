@@ -1,5 +1,7 @@
-import Cart from "./components/ConditionalRendering/Cart";
-import Password from "./components/ConditionalRendering/Password";
+import Cart from "./components/Day4ConditionalRendering/Cart";
+import Password from "./components/Day4ConditionalRendering/Password";
+import UserStatus from "./components/Day4ConditionalRendering/UserStatus";
+import Weather from "./components/Day4ConditionalRendering/Weather";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -44,9 +46,12 @@ const App = () =>{
       {/* <Password /> */}
 
       {/* But if i pass the isValid = true then it shows valid password. */}
-      <Password isValid={true}/>
+      {/* <Password isValid={true}/> */}
 
-      <Cart/>
+      {/* <Cart/> */}
+      <Weather isTemperature={20}/>
+      {/* <UserStatus isAdmin={true} loggedIn={true}/> */}
+      <Greeting timeOfDay={afternoon}/>
 
     </section>
   );
