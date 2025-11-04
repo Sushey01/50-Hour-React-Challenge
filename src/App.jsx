@@ -1,3 +1,5 @@
+import Cart from "./components/ConditionalRendering/Cart";
+import Password from "./components/ConditionalRendering/Password";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -35,8 +37,17 @@ const App = () =>{
       {/* <UserList/>
       <ProductList/> */}
       {/* <Properties/> */}
-      <Person name="Shekhar" age={20}/>
-      <Product name="Iphone" price={2000}/>
+      {/* <Person name="Shekhar" age={20}/>
+      <Product name="Iphone" price={2000}/> */}
+      
+      {/* iF I dont pass the isValid prop true then it will be default false so Invalid will display. */}
+      {/* <Password /> */}
+
+      {/* But if i pass the isValid = true then it shows valid password. */}
+      <Password isValid={true}/>
+
+      <Cart/>
+
     </section>
   );
 
