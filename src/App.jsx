@@ -1,6 +1,5 @@
 import Cart from "./components/Day4ConditionalRendering/Cart";
 import Password from "./components/Day4ConditionalRendering/Password";
-import UserStatus from "./components/Day4ConditionalRendering/UserStatus";
 import Weather from "./components/Day4ConditionalRendering/Weather";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
@@ -49,9 +48,31 @@ const App = () =>{
       {/* <Password isValid={true}/> */}
 
       {/* <Cart/> */}
-      <Weather isTemperature={20}/>
-      {/* <UserStatus isAdmin={true} loggedIn={true}/> */}
-      <Greeting timeOfDay={afternoon}/>
+     
+
+     <div>
+      <h1>Conditional Rendering in REACT</h1>
+
+      {/* WEATHER COMPPONENT */}
+      {/* <Weather istemperature={10}/>
+      <Weather istemperature={20}/>
+      <Weather istemperature={30}/> */}
+      <Weather/>
+
+
+      {/* UserStatus component */}
+      {/* <UserStatus loggedIn={true}/>
+      <UserStatus loggedIn={false}/>
+      <UserStatus isAdmin={true}/>
+      <UserStatus isAdmin={false}/> */}
+
+
+
+      {/* Greeting component */}
+      {/* <Greeting timeOfDay="morning"/>
+      <Greeting timeOfDay="afternoon"/>
+      <Greeting/> */}
+     </div>
 
     </section>
   );
