@@ -3,6 +3,9 @@ import GreetingConditional from "./components/Day4ConditionalRendering/GreetingC
 import Password from "./components/Day4ConditionalRendering/Password";
 import UserStatus from "./components/Day4ConditionalRendering/UserStatus";
 import Weather from "./components/Day4ConditionalRendering/Weather";
+import ProfileCard from "./components/Day5_InLineStyles__ICONS/ProfileCard";
+import StyleCard from "./components/Day5_InLineStyles__ICONS/StyleCard";
+import Styles from "./components/Day5_InLineStyles__ICONS/Styles";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -72,6 +75,13 @@ const App = () =>{
       <Greeting timeOfDay="afternoon"/>
       <Greeting/> */}
       <GreetingConditional timeOfDay="morning"/>
+
+
+
+      {/* Inline Styles */}
+      <Styles />
+      <StyleCard/>
+      <ProfileCard/>
      </div>
 
     </section>
