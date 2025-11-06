@@ -7,6 +7,7 @@ import Weather from "./components/Day4ConditionalRendering/Weather";
 import ProfileCard from "./components/Day5_InLineStyles__ICONS/ProfileCard";
 import StyleCard from "./components/Day5_InLineStyles__ICONS/StyleCard";
 import Styles from "./components/Day5_InLineStyles__ICONS/Styles";
+import ContentCopy from "./components/Day5EventsHandling/ContentCopy";
 import Events from "./components/Day5EventsHandling/Events";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
@@ -85,6 +86,7 @@ const App = () =>{
       <StyleCard/>
       <ProfileCard/>
       <Events/> */}
+      <ContentCopy/>
       <Counter/>
      </div>
 
