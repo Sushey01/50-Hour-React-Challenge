@@ -1,3 +1,4 @@
+import Counter from "./components/Challenges1/Counter";
 import Cart from "./components/Day4ConditionalRendering/Cart";
 import GreetingConditional from "./components/Day4ConditionalRendering/GreetingConditional";
 import Password from "./components/Day4ConditionalRendering/Password";
@@ -80,10 +81,11 @@ const App = () =>{
 
 
       {/* Inline Styles */}
-      <Styles />
+      {/* <Styles />
       <StyleCard/>
       <ProfileCard/>
-      <Events/>
+      <Events/> */}
+      <Counter/>
      </div>
 
     </section>

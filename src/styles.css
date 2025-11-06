@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    gap: 10px;
+    background-color: blue;
+}
+
+.button-left{
+    border: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button-right{
+    border: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
