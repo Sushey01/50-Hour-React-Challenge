@@ -9,6 +9,7 @@ import StyleCard from "./components/Day5_InLineStyles__ICONS/StyleCard";
 import Styles from "./components/Day5_InLineStyles__ICONS/Styles";
 import ContentCopy from "./components/Day5EventsHandling/ContentCopy";
 import Events from "./components/Day5EventsHandling/Events";
+import CountState from "./components/Day6StateAndHooks/CountState";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -87,7 +88,8 @@ const App = () =>{
       <ProfileCard/>
       <Events/> */}
       <ContentCopy/>
-      <Counter/>
+      <CountState/>
+      {/* <Counter/> */}
      </div>
 
     </section>
