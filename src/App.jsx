@@ -1,4 +1,5 @@
 import Counter from "./components/Challenges1/Counter";
+import Todo from "./components/Challenges1/Todo";
 import Cart from "./components/Day4ConditionalRendering/Cart";
 import GreetingConditional from "./components/Day4ConditionalRendering/GreetingConditional";
 import Password from "./components/Day4ConditionalRendering/Password";
@@ -92,6 +93,7 @@ const App = () =>{
       {/* <CountState/> */}
       <FriendsStateArray/>
       {/* <Counter/> */}
+      <Todo />
      </div>
 
     </section>
