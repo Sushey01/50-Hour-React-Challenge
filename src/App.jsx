@@ -62,7 +62,7 @@ const App = () =>{
      
 
      <div>
-      <h1>Conditional Rendering in REACT</h1>
+      {/* <h1>Conditional Rendering in REACT</h1> */}
 
       {/* WEATHER COMPPONENT */}
       {/* <Weather istemperature={10}/>
@@ -72,7 +72,7 @@ const App = () =>{
 
 
       {/* UserStatus component */}
-      <UserStatus loggedIn={true} isAdmin={false}/>
+      {/* <UserStatus loggedIn={true} isAdmin={false}/> */}
 
 
 
@@ -80,7 +80,7 @@ const App = () =>{
       {/* <Greeting timeOfDay="morning"/>
       <Greeting timeOfDay="afternoon"/>
       <Greeting/> */}
-      <GreetingConditional timeOfDay="morning"/>
+      {/* <GreetingConditional timeOfDay="morning"/> */}
 
 
 
@@ -89,10 +89,10 @@ const App = () =>{
       <StyleCard/>
       <ProfileCard/>
       <Events/> */}
-      <ContentCopy/>
-      {/* <CountState/> */}
+      {/* <ContentCopy/>
+      <CountState/>
       <FriendsStateArray/>
-      {/* <Counter/> */}
+      <Counter/> */}
       <Todo />
      </div>
 
