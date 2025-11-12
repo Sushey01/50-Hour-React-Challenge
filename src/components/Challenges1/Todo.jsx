@@ -20,9 +20,14 @@ const Todo = () => {
       onChange={(e)=>setInput(e.target.value)}
       />
       <button onClick={handleSubmit} type='button' className='button'>Submit</button>
-      <ul>
+      <ul style={{display:"flex",flexDirection:"column",gap:"5px"}}>
         {todos.map((todo, index)=>(
-          <li key={index}>{todo}</li>
+          <li style={{display:"flex",gap:"5px"
+          }} key={index}>
+            <input type='checkbox'/>
+            {todo}
+            <button type='submit' onClick={()=>setTodos(todos.filter((_, i)=>i!==index))}>delete</button>
+            </li>
         ))}
       </ul>
     </div>
