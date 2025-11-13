@@ -12,6 +12,7 @@ import ContentCopy from "./components/Day5EventsHandling/ContentCopy";
 import Events from "./components/Day5EventsHandling/Events";
 import CountState from "./components/Day6StateAndHooks/CountState";
 import FriendsStateArray from "./components/Day6StateAndHooks/FriendsStateArray";
+import Profile from "./components/Day6StateAndHooks/Profile";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -93,7 +94,8 @@ const App = () =>{
       <CountState/>
       <FriendsStateArray/>
       <Counter/> */}
-      <Todo />
+      {/* <Todo /> */}
+      <Profile />
      </div>
 
     </section>
