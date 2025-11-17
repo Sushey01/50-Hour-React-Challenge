@@ -8,10 +8,11 @@ const Profile = () => {
 
 
     function handleChange(e){
-      setProfile({
-        ...profile,
-        name:e.target.value
-      })
+      const {name, value} = e.target
+      setProfile(prev=>({
+        ...prev,
+        [name]:value
+      }))
     }
   return (
     <div>
