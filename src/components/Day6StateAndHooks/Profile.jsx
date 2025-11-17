@@ -18,6 +18,7 @@ const Profile = () => {
     <h1>Name:
       <input
       type="text"
+      name='name'
       value={profile.name}
       onChange={(e)=>{handleChange(e)}}
       />
@@ -25,6 +26,7 @@ const Profile = () => {
       <h2>Age:
         <input
         type='number'
+        name='age'
         value={profile.age}
         onChange={(e)=>{handleChange(e)}}
         />
