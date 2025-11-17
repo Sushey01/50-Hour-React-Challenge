@@ -29,6 +29,11 @@ const Profile = () => {
         onChange={(e)=>{handleChange(e)}}
         />
         </h2> 
+
+
+      <h3>Profile Details:</h3>
+      <p>Name: {profile.name}</p>
+      <p>Age: {profile.age}</p>
     </div>
   )
 }
