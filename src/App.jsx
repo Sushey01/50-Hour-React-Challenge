@@ -13,6 +13,7 @@ import Events from "./components/Day5EventsHandling/Events";
 import CountState from "./components/Day6StateAndHooks/CountState";
 import FriendsStateArray from "./components/Day6StateAndHooks/FriendsStateArray";
 import Profile from "./components/Day6StateAndHooks/Profile";
+import ShoppingList from "./components/Day6StateAndHooks/ShoppingList";
 import Expressions from "./components/Expressions";
 import Footer from "./components/Footer"
 import Greet from "./components/Greet"
@@ -96,6 +97,7 @@ const App = () =>{
       <Counter/> */}
       {/* <Todo /> */}
       <Profile />
+      <ShoppingList />
      </div>
 
     </section>
