@@ -7,22 +7,25 @@ const ShoppingList = () => {
 
 
   function handleChange(e){
-    const {name, quantity} = e.target
-    setItems(prev=>({
-      ...prev,
-     
-    }))
+    e.preventDefault();
+    if (!name || !quantity) return;
+
+    const newItem = {name, quantity};
+
+    setItems((prevItems)=>[...prevItems, newItem]);
+    setName("");
+    setQuantity("");
   }
 
   return (
     <div>
-      <form>
+      <form  onSubmit={handleChange}>
         <label>
           Item name:
           <input
           type='text'
           value={name}
-          onChange={(e)=>{handleChange(e.target.value)}}
+          onChange={(e)=>setName(e.target.value)}
           />
         </label>
         <label>
@@ -30,11 +33,21 @@ const ShoppingList = () => {
           <input 
           type='number'
           value={quantity}
-          onChange={(e)=>{handleChange(e.target.value)}}
+          onChange={(e)=>setQuantity(e.target.value)}
           />
 
         </label>
+        <button type='submit'>Add Item</button>
       </form>
+
+
+      <ul>
+        {items.map((item, index)=>(
+          <li key={index}>
+            {item.name} -Quantity: {item.quantity}
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
