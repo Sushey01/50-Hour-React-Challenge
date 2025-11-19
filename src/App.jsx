@@ -25,6 +25,7 @@ import Mapping from "./components/LISTS/Mapping";
 import ProductList from "./components/LISTS/ProductList";
 import UserList from "./components/LISTS/UserList";
 import MainContent from "./components/MainContent";
+import CopyInput from "./components/PortalDay7/CopyInput";
 import ProductInfo from "./components/ProductInfo";
 import Person from "./components/PROPS_DAY3/Person";
 import Product from "./components/PROPS_DAY3/Product";
@@ -98,6 +99,7 @@ const App = () =>{
       {/* <Todo /> */}
       <Profile />
       <ShoppingList />
+      <CopyInput />
      </div>
 
     </section>
