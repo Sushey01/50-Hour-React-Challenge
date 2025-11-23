@@ -1,5 +1,7 @@
 import Counter from "./components/Challenges1/Counter";
 import Todo from "./components/Challenges1/Todo";
+import CallBackisUseEFFECT from "./components/Day10/CallBackisUseEFFECT";
+import Switcher from "./components/Day10/Switcher";
 import Cart from "./components/Day4ConditionalRendering/Cart";
 import GreetingConditional from "./components/Day4ConditionalRendering/GreetingConditional";
 import Password from "./components/Day4ConditionalRendering/Password";
@@ -100,7 +102,9 @@ const App = () =>{
       {/* <Todo /> */}
       {/* <Profile />
       <ShoppingList /> */}
-      <CopyInput />
+      {/* <CopyInput /> */}
+      <Switcher />
+      <CallBackisUseEFFECT />
       
      </div>
 
