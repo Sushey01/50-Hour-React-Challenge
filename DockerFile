@@ -1,0 +1,17 @@
+# Step 1: Use node to build
+FROM node:18
+
+# Step 2: Set  work directory
+WORKDIR /app
+
+
+# Step 3: Copy everything
+COPY . .
+
+
+# Step 4: Install
+RUN npm install
+
+
+# Step 5: Start Development server
+CMD ["npm", "start"]
