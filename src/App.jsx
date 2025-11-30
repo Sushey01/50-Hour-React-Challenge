@@ -4,6 +4,7 @@ import BasicEffect from "./components/Day10ChallengeEffect/BasicEffect";
 import CallBackisUseEFFECT from "./components/Day10ChallengeEffect/CallBackisUseEFFECT";
 import CounterEffect from "./components/Day10ChallengeEffect/CounterEffect";
 import Switcher from "./components/Day10ChallengeEffect/Switcher";
+import ComponenetA from "./components/Day11PropDrilling/ComponenetA";
 import Cart from "./components/Day4ConditionalRendering/Cart";
 import GreetingConditional from "./components/Day4ConditionalRendering/GreetingConditional";
 import Password from "./components/Day4ConditionalRendering/Password";
@@ -37,7 +38,10 @@ import Product from "./components/PROPS_DAY3/Product";
 import Properties from "./components/PROPS_DAY3/Properties";
 import WelcomeMessage from "./components/WelcomeMessage";
 
+
 const App = () =>{
+
+  const name = "shekhar";
   return (
     <section id="section">
       {/* <div>
@@ -108,9 +112,9 @@ const App = () =>{
       <Switcher />
       <CallBackisUseEFFECT /> */}
       {/* <BasicEffect /> */}
-      <CounterEffect />
+      {/* <CounterEffect /> */}
      </div>
-
+<ComponenetA name={name} />
     </section>
   );
 
